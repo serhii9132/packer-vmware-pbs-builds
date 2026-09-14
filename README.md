@@ -23,7 +23,6 @@ PKR_VAR_private_key_file='D://.ssh//keys//key.pem'
 PKR_VAR_ip='192.168.0.10'
 PKR_VAR_mask='24'
 PKR_VAR_gateway='192.168.0.1'
-
 ```
 2. Run build:
 ```sh
