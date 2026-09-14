@@ -1,0 +1,25 @@
+accounts_root_pass: "$6$XgR2wDF9R4CIJl6U$ksppy03WSc5NJdcoGZ7BPwGYv14Zsb.i1G5ieznAiAAMsGpx1Ie1U/adetMqdilIv8uwU637PZnbUzDYKbGet0"
+
+bash_aliases_users:
+  - root
+bash_aliases_list:
+  apt-install: "apt install --assume-yes"
+  apt-remove: "apt purge --autoremove --assume-yes"
+  apt-fix: "apt install --fix-broken"
+  apt-autoremove: "apt autoremove"
+  apt-update: "apt update"
+  cd1: "cd .."
+  cd2: "cd ..; cd .."
+  df: "df --human-readable"
+  du: "du --human-readable"
+  mkdir: "mkdir --parents --verbose"
+  mv: "mv --interactive --verbose"
+  qq: "exit"
+  shutdown: "shutdown now"
+  reboot: "shutdown -r now"
+  clc: "clear"
+  cls: "clear"
+
+common_timezone: Europe/Kyiv
+
+ssh_port: 2222
