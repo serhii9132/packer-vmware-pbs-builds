@@ -1,0 +1,6 @@
+.env
+.cache
+builds
+packer_cache
+logs
+host_vars
